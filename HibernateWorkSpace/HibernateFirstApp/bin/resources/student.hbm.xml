@@ -1,0 +1,11 @@
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+<hibernate-mapping>
+<class name="beans.Student" table="student007" schema="SYSTEM">
+<id name="id" column="sid"/>
+<property name="name"  column="sname"/>
+<property name="email" column="semail"/>
+<property name="marks" column="smarks"/>
+</class>
+</hibernate-mapping>

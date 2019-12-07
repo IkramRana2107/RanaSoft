@@ -1,0 +1,12 @@
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+<hibernate-mapping>
+<class name="beans.Employee" table="employee" schema="SYSTEM">
+<id name="id">
+</id>
+<property name="name"/>
+<property name="email"/>
+<property name="salary"/>
+</class>
+</hibernate-mapping>
